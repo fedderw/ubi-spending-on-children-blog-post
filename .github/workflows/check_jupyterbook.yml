@@ -2,7 +2,7 @@ name: Test that Jupyter Book builds
 on: [push, pull_request]
 jobs:
   build-and-deploy:
-    if: github.repository == 'UBICenter/reponame'
+    if: github.repository == 'UBICenter/ubi-spending-on-children-blog-post'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
